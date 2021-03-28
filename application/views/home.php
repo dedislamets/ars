@@ -60,14 +60,17 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-auto d-none d-lg-block">
-                  <span class="fa fa-map-marker color-warning fw-800 icon-position-fix"></span>
-                  <p class="ml-2 mb-0 fs--1 d-inline color-white fw-700">1010 Avenue, New York, NY 10018 US. </p>
+                  <span class="fa fa-envelope color-warning fw-800 icon-position-fix"></span>
+                  <p class="ml-2 mb-0 fs--1 d-inline color-white fw-700">rizky.nugraha@ars.co.id</p>
                </div>
                <div class="col-auto ml-md-auto order-md-2 d-none d-sm-block">
-                  <span class="fa fa-clock-o color-warning fw-800 icon-position-fix"></span>
-                  <p class="ml-2 mb-0 fs--1 d-inline color-white fw-700">Mon-Sat, 8.00-18.00. Sunday CLOSED</p>
+                  <!-- <span class="fa fa-clock-o color-warning fw-800 icon-position-fix"></span> -->
+                  <!-- <p class="ml-2 mb-0 fs--1 d-inline color-white fw-700"></p> -->
                </div>
-               <div class="col-auto"><span class="fa fa-phone color-warning fw-800 icon-position-fix"></span><a class="ml-2 mb-0 fs--1 d-inline color-white fw-700" href="tel:2123865575">212 386 5575, 212 386 5576</a></div>
+               <div class="col-auto">
+                <span class="fa fa-phone color-warning fw-800 icon-position-fix"></span>
+                <a class="ml-2 mb-0 fs--1 d-inline color-white fw-700" href="tel:2123865575">0859-3020-2403</a>
+            </div>
             </div>
             <!--/.row-->
          </div>
