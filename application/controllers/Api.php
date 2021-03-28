@@ -86,56 +86,7 @@ class Api extends RestController  {
         }
         
     }
-    public function shift_get()
-    {
-        $id = $this->input->get("id");
-        $shift = $this->admin->api_get_function('fn_schshift',$id );
-
-        if ($shift != FALSE) {
-            $this->response($shift, 200 );
-        }else{
-
-            $this->response( [
-                'status' => false,
-                'message' => 'No users were found'
-            ], 404 );
-        }
-        
-    }
-
-    public function list_attendance_get()
-    {
-        $id = $this->input->get("id");
-        $periode = $this->input->get("periode");
-        $shift = $this->admin->api_get_function('Fn_appattendancelist',$id."," .$periode );
-
-        if ($shift != FALSE) {
-            $this->response($shift, 200 );
-        }else{
-
-            $this->response( [
-                'status' => false,
-                'message' => 'No users were found'
-            ], 404 );
-        }
-        
-    }
-
-    public function periode_get()
-    {
-        $shift = $this->admin->api_getmaster('vf_periodpayroll');
-
-        if ($shift != FALSE) {
-            $this->response($shift, 200 );
-        }else{
-
-            $this->response( [
-                'status' => false,
-                'message' => 'No users were found'
-            ], 404 );
-        }
-        
-    }
+    
 
     public function absen_post()
     {
