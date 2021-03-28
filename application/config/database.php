@@ -75,15 +75,15 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'database' => 'ars',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password'	=> '',
-
-	// 'username' => 'u9892485_sistem',
-	// 'database' => 'u9892485_expedisi',
+	// 'database' => 'ars',
 	// 'hostname' => 'localhost',
-	// 'password'	=> 'wmlogistics123^',
+	// 'username' => 'root',
+	// 'password'	=> '',
+
+	'username' => 'u9892485_sistem',
+	'database' => 'u9892485_expedisi',
+	'hostname' => 'localhost',
+	'password'	=> 'wmlogistics123^',
 	
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
