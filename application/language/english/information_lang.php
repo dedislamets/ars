@@ -23,7 +23,7 @@ $lang['who-content2'] = "<p class='my-4' data-zanim='{\"delay\":0.1}'>Born since
 $lang['sinergi-title'] = "Synergy";
 $lang['sinergi-content'] = "Creating success and Anticipating a developing business environment today and in the future to be able to grow and develop in a healthy business environment.";
 
-$lang['focus-title'] = "Synergy";
+$lang['focus-title'] = "Focus";
 $lang['focus-content'] = "Dedicate itself to comprehensive and transparent IT development .";
 
 $lang['integrasi-title'] = "Integration";
