@@ -4,6 +4,7 @@ $lang['home'] = 'Rumah';
 $lang['visi'] = 'Visi & Misi';
 $lang['aboutus'] = 'Tentang Kami';
 $lang['contactus'] = 'Kontak Kami';
+$lang['products'] = 'Produk Kami';
 
 $lang['visi-content'] = "<h3>Visi</h3>
 						<ul>
@@ -43,3 +44,11 @@ $lang['slider-2-title'] ="Konsultan Berpengalaman";
 $lang['slider-2-content'] ="Didukung oleh tenaga yang kompeten dibidangnya";
 $lang['slider-1-title'] ="Partner Terpercaya";
 $lang['slider-1-content'] ="Percayakan kebutuhan anda pada kami.";
+
+$lang['product-1'] = "Perdagangan internasional memberi konsumen dan negara peluang luas untuk barang dan jasa yang tidak tersedia di negara mereka sendiri, atau yang akan lebih mahal di dalam negeri.";
+
+$lang['product-2'] = "Layanan yang kami sediakan Door to Door Service & Portto Door Service";
+
+$lang['product-3'] = "Kami memberikan solusi kepada pelanggan untuk mengajukan sertifikasi atau lisensi di Kementerian atau Departemen Terkait Lainnya";
+
+$lang['product-4'] = "Kami memberikan solusi kepada pelanggan untuk konsultasi bisnis yang akan Anda jalankan serta kerjasama untuk barang atau jasa lainnya";

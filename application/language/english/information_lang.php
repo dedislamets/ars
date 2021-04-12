@@ -4,6 +4,7 @@ $lang['home'] = 'Home';
 $lang['visi'] = 'Vision & Mission';
 $lang['aboutus'] = 'About Us';
 $lang['contactus'] = 'Contact Us';
+$lang['products'] = 'Our Products';
 
 $lang['who-title'] = 'Who Is ARS';
 $lang['visi-content'] = "<h3>Vision</h3>
@@ -42,3 +43,8 @@ $lang['slider-2-title'] ="Experience Consultants";
 $lang['slider-2-content'] ="Supported by staff who are competent in their fields";
 $lang['slider-1-title'] ="Trusted Partner";
 $lang['slider-1-content'] ="Trust your needs to us.";
+
+$lang['product-1'] = "International trade provides consumers and countries with broad opportunities for goods and services that are not available in their own country, or which would be more expensive domestically";
+$lang['product-2'] = "the services we provide Door to Door Service & Portto Door Service";
+$lang['product-3'] = "We provide solution to customer to apply certification or license in Ministry or Other Related Department";
+$lang['product-4'] = "We provide solutions to customers for business consultations that you will run as well as cooperation for other goods or services";

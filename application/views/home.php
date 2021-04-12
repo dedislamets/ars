@@ -39,6 +39,9 @@
                 display: none;
             }
         }
+        .znav-container ul li {
+            font-size: 0.9rem !important;
+        }
     </style>
 </head>
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -118,6 +121,7 @@
                         <a href="#home" class="d-block"><?= $this->lang->line('home') ?></a>
                      </li>
                      <li><a class="d-block" href="#visi"><?= $this->lang->line('visi') ?></a></li>
+                     <li><a class="d-block" href="#products"><?= $this->lang->line('products') ?></a></li>
                      <li><a class="d-block" href="#whos"><?= $this->lang->line('aboutus') ?></a></li>
                      <li><a class="d-block" href="#tata"><?= $this->lang->line('tata') ?></a></li>
                      
@@ -263,6 +267,74 @@
          </div>
          <!--/.container-->
         </section>
+        <section class="background-11 text-center pt-0 pb-5">
+            <div class="container">
+              <h3 class="text-center fs-2 fs-md-3 pt-5"><?= $this->lang->line('products') ?></h3>
+              <hr class="short" data-zanim='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll"/>
+               <div class="row mt-5">
+                  <div class="col-sm-6 col-lg-6">
+                     <div class="background-white pb-4 h-100 radius-secondary">
+                        <img class="mb-4 radius-tr-secondary radius-tl-secondary" style="height: 315px;" src="assets/images/Screenshot_3.png" alt="International Trade"/>
+                        <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                           <div class="overflow-hidden">
+                              <h5 data-zanim='{"delay":0}'>International Trade</h5>
+                           </div>
+                          
+                           <div class="overflow-hidden">
+                              <p class="py-3 mb-0" data-zanim='{"delay":0.2}'><?= $this->lang->line('product-1') ?></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6 mt-4 mt-lg-0">
+                     <div class="background-white pb-4 h-100 radius-secondary">
+                        <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/Screenshot_1.png" alt="Export Import"/>
+                        <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                           <div class="overflow-hidden">
+                              <h5 data-zanim='{"delay":0}'>Export Import</h5>
+                           </div>
+                           
+                           <div class="overflow-hidden">
+                              <p class="py-3 mb-0" data-zanim='{"delay":0.2}'><?= $this->lang->line('product-2') ?></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6 mt-4 mt-sm-0">
+                     <div class="background-white pb-4 h-100 radius-secondary">
+                        <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/trade-license-services-Dubai-700x400.jpg" alt="Trade License Service"/>
+                        <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                           <div class="overflow-hidden">
+                              <h5 data-zanim='{"delay":0}'>Trade License Service</h5>
+                           </div>
+                           
+                           <div class="overflow-hidden">
+                              <p class="py-3 mb-0" data-zanim='{"delay":0.2}'><?= $this->lang->line('product-3') ?></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col-sm-6 col-lg-6 mt-4">
+                     <div class="background-white pb-4 h-100 radius-secondary">
+                        <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/Waitshoppers.com-Business-Consultant.jpg" alt="Business Consultant"/>
+                        <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                           <div class="overflow-hidden">
+                              <h5 data-zanim='{"delay":0}'>Business Consultant</h5>
+                           </div>
+                           
+                           <div class="overflow-hidden">
+                              <p class="py-3 mb-0" data-zanim='{"delay":0.2}'><?= $this->lang->line('product-4') ?></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.container-->
+         </section>
         <section class="background-11" style="padding-top: 0;" id="tata">
          <div class="container">
             <h3 class="text-center fs-2 fs-md-3 pt-5"><?= $this->lang->line('tata') ?></h3>
